@@ -29,4 +29,6 @@ To know the working directory status,
 git status
 
 
-git config --global core.excludesfile /e/PentahoTool4.4/dm_cs_2013_first_proj/.gitignore
+git config --global core.excludesfile /e/PentahoTool4.4/dm_cs_2013_first_proj/.git/.gitignore
+
+git commit -m "<message text>"
