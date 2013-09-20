@@ -30,3 +30,7 @@ git status
 
 
 Hello, How are you ?
+
+Test 1
+
+Test 2
