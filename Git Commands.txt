@@ -1,0 +1,27 @@
+git config --global user.name "egupgha"
+
+git config --global user.email "g.hari.kumar.gupta@ericsson.com"
+
+ssh-keygen -t rsa -C "g.hari.kumar.gupta@ericsson.com"
+
+
+To download a repo from eforge
+
+git clone ssh://egupgha@gerritforge.lmera.ericsson.se:29418/dm_cs_2013_orange_switzerland
+
+To add dir (with files) to repo
+
+git add 
+
+
+git remote add origin ssh://egupgha@localhost:29418/c/dm_projects_remote/myfirstproject.git
+
+git clone git://github.com/harikumar23/dm_cs_pentaho.git
+
+git clone https://github.com/harikumar23/dm_cs_pentaho.git
+
+
+git remote add origin https://harikumargupta@bitbucket.org/harikumargupta/dm_cs_2013_firstproj.git
+
+
+git remote add origin git@github.com:harikumar23/dm_cs_2013_first_proj.git
