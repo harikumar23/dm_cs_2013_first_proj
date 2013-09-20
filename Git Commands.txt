@@ -22,3 +22,11 @@ git remote add origin git@github.com:harikumar23/dm_cs_2013_first_proj.git
 Using HTTPS protocal, to clone repo.
 
 git clone https://github.com/harikumar23/dm_cs_pentaho.git
+
+
+To know the working directory status,
+
+git status
+
+
+This is end of the season
