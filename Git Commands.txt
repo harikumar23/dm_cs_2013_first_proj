@@ -29,5 +29,4 @@ To know the working directory status,
 git status
 
 
-This is end of the season 1
-This is end of the season 2
+Hello, How are you ?
