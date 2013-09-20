@@ -31,4 +31,7 @@ git status
 
 git config --global core.excludesfile /e/PentahoTool4.4/dm_cs_2013_first_proj/.git/.gitignore
 
+how to commit file to staging area
+
 git commit -m "<message text>"
+
