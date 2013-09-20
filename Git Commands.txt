@@ -29,8 +29,4 @@ To know the working directory status,
 git status
 
 
-Hello, How are you ?
-
-Test 1
-
-Test 2
+git config --global core.excludesfile /e/PentahoTool4.4/dm_cs_2013_first_proj/.gitignore
