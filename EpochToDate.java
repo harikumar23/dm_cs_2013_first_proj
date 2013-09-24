@@ -38,34 +38,6 @@ public class EpochToDate {
 			String createDayDate = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").
 					format(new java.util.Date (epoch*1000));
 			System.out.println("Create Date:"+createDayDate);
-//
-//
-//			String createDay = new java.text.SimpleDateFormat("dd").
-//					format(new java.util.Date (epoch*1000));
-//			System.out.println("Create Day:"+createDay);
-//
-//			Calendar cal = Calendar.getInstance();
-//
-//			int migDay=cal.get(Calendar.DAY_OF_MONTH);
-//			System.out.println("Mig Day:"+migDay);
-//			System.out.println("Mig Month:"+cal.get(Calendar.MONTH));
-//
-//			cal.set(Calendar.DAY_OF_MONTH, Integer.parseInt(createDay));
-//			if (migDay<Integer.parseInt(createDay))
-//				cal.set(Calendar.MONTH, cal.get(Calendar.MONTH)-1);
-//
-//			System.out.println("Condition Check For Month:"+cal.get(Calendar.MONTH));
-//
-//			cal.add(Calendar.DAY_OF_MONTH, numberOfDays);
-//
-//
-//			System.out.println("Date:"+cal.get(Calendar.DAY_OF_MONTH)+"-"+cal.get(Calendar.MONTH)+"-"+cal.get(Calendar.YEAR));
-//
-//			java.util.Date date = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").parse("01/01/1970 00:00:00");
-//			System.out.println((cal.getTimeInMillis() - date.getTime())/((24 * 60 * 60 * 1000)));
-
-			System.out.println("Cal:"+cal);
-			//cal.setTimeZone(TimeZone.getTimeZone("GMT"));
 
 			String createDay = new java.text.SimpleDateFormat("dd").
 					format(new java.util.Date (epoch*1000));
